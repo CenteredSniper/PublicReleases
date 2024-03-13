@@ -23,4 +23,14 @@ https://github.com/CenteredSniper/PublicReleases/assets/59752762/ef5dd464-5fb8-4
 
 > workspace.SignalBehavior Deferred
 
-My code relies heavily on Signals to work on the Immediate Behavior, so Player.CharacterAdded runs around the same time as Player.CharacterRemoving, causing the code to yield. The easiest fix for this would be to change the SignalBehavior until I can find a solution.
+My code relies heavily on Signals to work on the Immediate Behavior, so Player.CharacterAdded runs around the same time as Player.CharacterRemoving, causing the code to yield. 
+
+The easiest fix for this would be to change the SignalBehavior until I can find a solution.
+
+> Animations get reset, being noticable
+
+Honestly, implementing a whole thing to make animations fluidly refresh would be a lot of hassle especially with how... horrid... animation modification is.
+
+Then there's the hassle of dealing with the Animate script, and then replication, etc etc
+
+A lot of work for nothing.
