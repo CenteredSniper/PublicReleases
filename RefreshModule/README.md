@@ -19,3 +19,8 @@ Modify the code if you want the remote to be placed elsewhere, it automatically 
 
 https://github.com/CenteredSniper/PublicReleases/assets/59752762/ef5dd464-5fb8-4098-9b35-70f10f2598b4
 
+## Known Issues
+
+> workspace.SignalBehavior Deferred
+
+My code relies heavily on Signals to work on the Immediate Behavior, so Player.CharacterAdded runs around the same time as Player.CharacterRemoving, causing the code to yield. The easiest fix for this would be to change the SignalBehavior until I can find a solution.
